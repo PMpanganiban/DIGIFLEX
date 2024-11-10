@@ -1,0 +1,47 @@
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_kayleigh.jpg" alt="Kayleigh">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_sabrina.jpg" alt="Sabrina">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_chris.jpg" alt="Chris">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_one.jpg" alt="One">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_two.jpg" alt="Two">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_three.jpg" alt="Three">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_four.jpg" alt="Four">
+
+}
+
+{
+
+<img src="C:\Users\patyp\OneDrive\Desktop\DIGIFLEX\images\img_five.jpg" alt="Five">
+
+}
