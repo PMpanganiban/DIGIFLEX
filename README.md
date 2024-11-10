@@ -1,2 +1,2 @@
 # DIGIFLEX
-MO-IT120 Milestone 1 Draft PANGANIBAN, P.M.
+MO-IT120 Milestone 1 PANGANIBAN, P.M.
