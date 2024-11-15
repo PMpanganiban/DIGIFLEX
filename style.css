@@ -32,14 +32,14 @@ header .logo {
 }
 
 header nav ul {
-    color: #fff;
+    color: #f4f4f4;
     list-style: none;
     display: flex;
     gap: 1.5rem;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #f4f4f4;
     text-decoration: none;
     font-weight: 500;
 }
@@ -59,25 +59,36 @@ header .social a {
     text-align: left;
 }
 
-.hero-image {
-    width: 200px;
-    height: 200px;
+.img_two {
+    max-width: 320px;
+    float: left;
+    height: 320px;
+    margin-right: 15px;
     background-color: #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #666;
-    font-size: 1rem;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box {
+    font-size: 50px;
+    color: #333;
 }
 
 .hero-text {
     text-align: right;
-    max-width: 200px;
+    width: 200px;
     font-size: 1.5rem;
 }
 
 .hero-text h1 {
-    text-align: right;
+    text-align: center;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -175,7 +186,6 @@ header .social a {
 #services h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    text-align: right;
     margin-bottom: 2rem;
 }
 
