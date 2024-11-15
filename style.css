@@ -31,6 +31,7 @@ header .logo {
 }
 
 header nav ul {
+    color: #fff;
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -69,11 +70,13 @@ header .social a {
 }
 
 .hero-text {
+    text-align: right;
     max-width: 600px;
     font-size: 1.5rem;
 }
 
 .hero-text h1 {
+    text-align: right;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -82,8 +85,10 @@ header .social a {
     font-weight: bold; /* Bold for "businesses" */
 }
 
-.hero-text h1 sub.text {
-    font-style: italic, underline;
+.hero-text h1 {
+    text-align: right;
+    font-style: italic;
+    font-style: underline;
     text-decoration: underline;
     font-size: 1.2rem;
     color: #333;
@@ -126,6 +131,17 @@ header .social a {
     color: #666;
     margin: 0 auto 1rem;
     font-size: 1rem;
+    
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /* Responsive design */
