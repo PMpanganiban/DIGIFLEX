@@ -1,3 +1,6 @@
+/* Import JetBrains Mono for the "Thrive and Vibe" text */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,400&family=Poppins:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
