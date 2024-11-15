@@ -4,16 +4,18 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
-poppins-semibold {
+.poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-
 }
 
 body {
     color: #333;
     background-color: #f4f4f4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 /* Header styling */
@@ -81,7 +83,8 @@ header .social a {
 .text-box2 {
     font-size: 50px;
     color: #333;
-    font-style: italic, underline;
+    font-style: italic;
+    font-style: underline;
 }
 
 /* Our Work Section */
@@ -169,6 +172,14 @@ header .social a {
     margin-bottom: 2rem;
 }
 
+#services p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+        
+
 .services-content {
     display: flex;
     justify-content: center;
@@ -232,6 +243,13 @@ header .social a {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+}
+
+#vision-and-mission p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .vision-content {
