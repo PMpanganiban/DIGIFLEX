@@ -1,11 +1,13 @@
-/* Import JetBrains Mono for the "Thrive and Vibe" text */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,400&family=Poppins:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 body {
@@ -80,7 +82,7 @@ header .social a {
     font-weight: bold; /* Bold for "businesses" */
 }
 
-.hero-text h2 {
+.hero-text h1 sub.text {
     font-style: italic, underline;
     text-decoration: underline;
     font-size: 1.2rem;
