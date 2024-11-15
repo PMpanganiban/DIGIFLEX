@@ -1,6 +1,3 @@
-/* Import JetBrains Mono for the "Thrive and Vibe" text */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,400&family=Poppins:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -19,22 +16,19 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    color: #f4f4f4;
+    color: #fff;
     padding: 1rem;
 }
 
 header .logo {
-    color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 header nav ul {
-    color: #fff;
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    justify-text: center;
 }
 
 header nav ul li a {
@@ -83,9 +77,8 @@ header .social a {
     font-weight: bold; /* Bold for "businesses" */
 }
 
-.hero-text .subtext {
-    font-family: 'JetBrains Mono', monospace;
-    font-style: italic;
+.hero-text h2 {
+    font-style: italic, underline;
     text-decoration: underline;
     font-size: 1.2rem;
     color: #333;
