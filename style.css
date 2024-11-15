@@ -120,8 +120,8 @@ header .social a {
 }
 
 .img_kayleigh {
-    width: 410px;
-    height: 410px;
+    max-width: 500px;
+    max-height: 500px;
     background-color: #ccc;
     display: flex;
     align-items: center;
@@ -133,8 +133,8 @@ header .social a {
 }
 
 .img_sabrina {
-    width: 410px;
-    height: 410px;
+    max-width: 500px;
+    max-height: 500px;
     background-color: #ccc;
     display: flex;
     align-items: center;
@@ -146,8 +146,8 @@ header .social a {
 }
 
 .img_chris {
-    width: 410px;
-    height: 410px;
+    max-width: 500px;
+    max-height: 500px;
     background-color: #ccc;
     display: flex;
     align-items: center;
