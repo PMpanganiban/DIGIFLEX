@@ -40,10 +40,10 @@ header nav ul {
     gap: 1.5rem;
 }
 
-header nav ul li a {
+header .navigation {
     color: #f4f4f4;
-    text-decoration: none;
-    font-weight: 500;
+    text-decoration: underline;
+    font-weight: 200;
 }
 
 header .social a {
@@ -62,7 +62,7 @@ header .social a {
 }
 
 .img_two {
-    max-width: 320px;
+    max-width: 410px;
     float: left;
     margin-right: 15px;
     background-color: #ccc;
@@ -197,36 +197,24 @@ header .social a {
     text-align: right;
     background-color: #fafafa;
 }
-
-#about-us h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.about-content {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    align-items: center;
-}
-
-.about-text {
-    max-width: 500px;
-    text-align: right;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
-.about-image {
-    width: 320px;
-    height: 320px;
+    
+.img_five {
+    max-width: 410px;
+    float: left;
+    margin-right: 15px;
     background-color: #ccc;
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: #666;
-    font-size: 1rem;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box {
+    font-size: 50px;
+    color: #333;
 }
     
 /* Vision and Mission Section */
