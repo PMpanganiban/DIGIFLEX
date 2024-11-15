@@ -120,8 +120,8 @@ header .social a {
 }
 
 .img_kayleigh {
-    width: 150px;
-    height: 150px;
+    width: 410px;
+    height: 410px;
     background-color: #ccc;
     display: flex;
     align-items: center;
@@ -133,8 +133,8 @@ header .social a {
 }
 
 .img_sabrina {
-    width: 150px;
-    height: 150px;
+    width: 410px;
+    height: 410px;
     background-color: #ccc;
     display: flex;
     align-items: center;
@@ -146,8 +146,8 @@ header .social a {
 }
 
 .img_chris {
-    width: 150px;
-    height: 150px;
+    width: 410px;
+    height: 410px;
     background-color: #ccc;
     display: flex;
     align-items: center;
@@ -157,23 +157,11 @@ header .social a {
     font-size: 1rem;
     
 }
-/* Responsive design */
-@media (max-width: 768px) {
-    .work-item-container {
-        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .work-item-container {
-        grid-template-columns: 1fr; /* One column on very small screens */
-    }
-}
 
 /* About Us Section */
 #about-us {
     padding: 2rem;
-    text-align: center;
+    text-align: right;
     background-color: #fafafa;
 }
 
@@ -192,20 +180,47 @@ header .social a {
 
 .about-text {
     max-width: 500px;
-    text-align: left;
+    text-align: right;
     font-size: 1rem;
     line-height: 1.5;
 }
 
 .about-image {
-    width: 200px;
-    height: 200px;
+    width: 320px;
+    height: 320px;
     background-color: #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #666;
     font-size: 1rem;
+}
+    
+/* Vision and Mission Section */
+#vision-and-mission {
+    padding: 2rem;
+    text-align: right;
+    background-color: #fafafa;
+}
+
+#vision-and-mission h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.vision-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.vision-text {
+    max-width: 500px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* Contact Section */
