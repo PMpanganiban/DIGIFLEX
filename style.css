@@ -86,10 +86,11 @@ header .social a {
     font-weight: bold; /* Bold for "businesses" */
 }
 
-.hero-text h1 {
+.hero-text h1 sub.text {
     text-align: right;
-    font-size: 1.2rem;
+    font-size: 3rem;
     color: #333;
+    font-weight: 700;
 }
 
 /* Our Work Section */
@@ -108,7 +109,7 @@ header .social a {
 .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Space between columns */
+    gap: 0px; /* Space between columns */
 }
 
 .column {
@@ -168,14 +169,14 @@ header .social a {
 #services h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #services h3 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    text-align: left;
+    text-align: right;
 }
 
 .services-content {
