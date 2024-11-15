@@ -84,7 +84,7 @@ header .social a {
     font-size: 50px;
     color: #333;
     font-style: italic;
-    font-style: underline;
+    font-decoration: underline;
 }
 
 /* Our Work Section */
@@ -169,14 +169,11 @@ header .social a {
 #services h3 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #services p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1rem;
-    line-height: 1.5;
+    text-align: right;
 }
         
 
@@ -235,7 +232,7 @@ header .social a {
 /* Vision and Mission Section */
 #vision-and-mission {
     padding: 2rem;
-    text-align: right;
+    text-align: center;
     background-color: #fafafa;
 }
 
@@ -246,10 +243,8 @@ header .social a {
 }
 
 #vision-and-mission p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1rem;
     line-height: 1.5;
+    text-align: center;
 }
 
 .vision-content {
