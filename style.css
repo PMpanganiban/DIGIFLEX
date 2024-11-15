@@ -1,4 +1,3 @@
-@import url('Poppins-SemiBold.ttf');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 
 .poppins-semibold {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
 }
