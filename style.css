@@ -72,7 +72,7 @@ header .social a {
 
 .hero-text {
     text-align: right;
-    max-width: 600px;
+    max-width: 200px;
     font-size: 1.5rem;
 }
 
@@ -156,6 +156,40 @@ header .social a {
     margin: 0 auto 1rem;
     font-size: 1rem;
     
+}
+
+/* Services Section */
+#services {
+    padding: 2rem;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+#services h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#services h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.services-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.services-text {
+    max-width: 500px;
+    text-align: right;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* About Us Section */
