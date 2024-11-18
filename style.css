@@ -55,15 +55,15 @@ header .social a {
 /* Hero/Home section */
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 2rem;
+    min-height: 100vh;
     background-color: #f9f9f9;
     text-align: left;
 }
 
 .img_two {
-    max-width: 410px;
+    max-width: 320px;
     float: left;
     margin-right: 15px;
     background-color: #ccc;
@@ -77,15 +77,15 @@ header .social a {
 }
 
 .text-box {
-    font-size: 40px;
+    font-size: 35px;
     color: #333;
 }
 
 .text-box2 {
-    font-size: 50px;
+    font-size: 35px;
     color: #333;
     font-style: italic;
-    font-decoration: underline;
+    font-style: underline;
 }
 
 /* Our Work Section */
@@ -187,21 +187,32 @@ header .social a {
 
 .services-text {
     max-width: 500px;
-    text-align: right;
+    text-align: left;
     font-size: 1rem;
     line-height: 1.5;
+    font-weight: 200;
 }
 
 /* About Us Section */
 #about-us {
     padding: 2rem;
-    text-align: right;
-    background-color: #fafafa;
     color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+#about-us h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
     
 .img_five {
-    max-width: 410px;
+    max-width: 320px;
     float: left;
     margin-right: 15px;
     background-color: #ccc;
@@ -214,8 +225,8 @@ header .social a {
     width: 70%;
 }
 
-.text-box {
-    font-size: 50px;
+.text-box p {
+    font-size: 16px;
     color: #333;
 }
     
