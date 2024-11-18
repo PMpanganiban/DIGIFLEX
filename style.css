@@ -205,7 +205,7 @@ header .social a {
     text-align: left;
 }
 
-#about-us h2 {
+.about-us h2 {
     padding: 2rem;
     text-align: right;
     background-color: #fafafa;
@@ -243,7 +243,7 @@ header .social a {
     margin-bottom: 1rem;
 }
 
-#vision-and-mission p {
+.vision p {
     line-height: 1.5;
     text-align: left;
     font-weight: 200;
