@@ -245,7 +245,8 @@ header .social a {
 
 #vision-and-mission p {
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
+    font-weight: 200;
 }
 
 .vision-content {
