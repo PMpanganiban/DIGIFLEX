@@ -199,6 +199,12 @@ header .social a {
     text-align: center;
     background-color: #fafafa;
 }
+
+#about-us h2 {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
     
 .img_five {
     max-width: 320px;
