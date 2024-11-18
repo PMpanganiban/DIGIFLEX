@@ -198,11 +198,16 @@ header .social a {
     padding: 2rem;
     text-align: center;
     background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: left;
 }
 
 #about-us h2 {
     padding: 2rem;
-    text-align: center;
+    text-align: right;
     background-color: #fafafa;
 }
     
