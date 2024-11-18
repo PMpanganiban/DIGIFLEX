@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins-SemiBold', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('Poppins-SemiBold.ttf');
+}
+
+body {
+  font-family: 'Poppins-SemiBold', sans-serif;
 }
 
 .poppins-semibold {
-  font-family: "Poppins", serif;
+  font-family: "Poppins-SemiBold", serif;
   font-weight: 600;
   font-style: normal;
 }
