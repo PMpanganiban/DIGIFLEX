@@ -206,8 +206,21 @@ header .social a {
 /* About Us Section */
 #about-us {
     padding: 2rem;
-    text-align: right;
+    text-align: center;
     background-color: #fafafa;
+}
+
+#about-us h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
 }
     
 .img_five {
