@@ -209,10 +209,7 @@ header .social a {
     text-align: right;
     background-color: #fafafa;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    text-align: left;
 }
     
 .img_five {
@@ -232,6 +229,7 @@ header .social a {
 .text-box p {
     font-size: 16px;
     color: #333;
+    text-align: left;
 }
     
 /* Vision and Mission Section */
