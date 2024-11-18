@@ -208,8 +208,6 @@ header .social a {
     padding: 2rem;
     text-align: right;
     background-color: #fafafa;
-    display: flex;
-    min-height: 100vh;
 }
     
 .img_five {
