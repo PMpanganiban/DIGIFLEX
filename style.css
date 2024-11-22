@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins-SemiBold', sans-serif;
-}
 
-@font-face {
-  font-family: 'Poppins-SemiBold';
-  src: url('Poppins-SemiBold.ttf');
 }
 
 body {
