@@ -6,8 +6,9 @@
 
 }
 
-body {
-  font-family: 'Poppins-SemiBold', sans-serif;
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('Poppins-SemiBold.ttf');
 }
 
 .poppins-semibold {
@@ -17,9 +18,9 @@ body {
 }
 
 body {
+    font-family: 'Poppins-SemiBold', sans-serif;
     color: #333;
     background-color: #f4f4f4;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
